@@ -10,7 +10,6 @@ class XylophoneApp extends StatelessWidget {
     final player = AudioPlayer();
     player.play(AssetSource('audio/note$i.wav'));
   }
-
   Expanded createButton(MaterialColor keyColor,noteNum){
     return Expanded(
       child: TextButton(
